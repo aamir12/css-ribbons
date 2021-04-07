@@ -102,14 +102,127 @@ body {
 }
 
 /* .ribbon-3 */
+
 .ribbon-3 {
+  width: 150px;
+  height: 50px;
+  background-color: #21759a;
+  top: 150px;
+  left: -10px;
 }
+
+.ribbon-3:before {
+  position: absolute;
+  content: "";
+  border-left: solid 5px transparent;
+  border-right: solid 5px #14455b;
+  border-top: solid 5px transparent;
+  border-bottom: solid 5px #14455b;
+  top: -10px;
+  left: 0px;
+}
+
+.ribbon-3:after {
+  position: absolute;
+  content: "";
+  border-left: solid 25px #21759a;
+  border-right: solid 25px transparent;
+  border-top: solid 25px transparent;
+  border-bottom: solid 25px transparent;
+  top: 0px;
+  right: -50px;
+}
+
 /* .ribbon-4 */
+
 .ribbon-4 {
+  width: 150px;
+  height: 50px;
+  background-color: #21759a;
+  top: 150px;
+  right: -10px;
 }
+
+.ribbon-4:before {
+  position: absolute;
+  content: "";
+  border-left: solid 5px #14455b;
+  border-right: solid 5px transparent;
+  border-top: solid 5px transparent;
+  border-bottom: solid 5px #14455b;
+  top: -10px;
+  right: 0px;
+}
+
+.ribbon-4:after {
+  position: absolute;
+  content: "";
+  border-left: solid 25px #fff;
+  border-right: solid 25px #21759a;
+  border-top: solid 25px #21759a;
+  border-bottom: solid 25px #21759a;
+  top: 0px;
+  left: 0px;
+}
+
 /* .ribbon-5 */
 .ribbon-5 {
+  width: 370px;
+  height: 50px;
+  background-color: #efb33b;
+  top: 250px;
+  left: -10px;
 }
+
+.ribbon-5:before {
+  position: absolute;
+  content: "";
+  border-left: solid 5px transparent;
+  border-right: solid 5px #d4a547;
+  border-top: solid 5px transparent;
+  border-bottom: solid 5px #d4a547;
+  top: -10px;
+  left: 0px;
+}
+
+.ribbon-5:after {
+  position: absolute;
+  content: "";
+  border-left: solid 5px #d4a547;
+  border-right: solid 5px transparent;
+  border-top: solid 5px transparent;
+  border-bottom: solid 5px #d4a547;
+  top: -10px;
+  right: 0px;
+}
+
 /* .ribbon-6 */
 .ribbon-6 {
+  width: 370px;
+  height: 50px;
+  background-color: #efb33b;
+  top: 350px;
+  left: -10px;
+}
+
+.ribbon-6:before {
+  position: absolute;
+  content: "";
+  border-left: solid 5px transparent;
+  border-right: solid 5px #d4a547;
+  border-top: solid 5px #d4a547;
+  border-bottom: solid 5px transparent;
+  bottom: -10px;
+  left: 0px;
+}
+
+.ribbon-6:after {
+  position: absolute;
+  content: "";
+  border-left: solid 5px #d4a547;
+  border-right: solid 5px transparent;
+  border-top: solid 5px transparent;
+  border-bottom: solid 5px #d4a547;
+  top: -10px;
+  right: 0px;
 }
